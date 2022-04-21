@@ -3,32 +3,43 @@
   background-color: black;
   color: white;
 }
+
+/* heading H3 and Name Section */
 h3,
 .name {
   color: gold;
 }
+
+/* Contact Details */
 .contact {
   display: block;
   margin:12PX auto;
   width: 163px;
   
 }
+
+/* IMG Section */
 .self {
   margin: 6px;
   height: 200px;
   width: 200px;
-  border: 3px solid gold;
+  border: 3px solid rgb(42, 255, 0);
   border-radius: 214px;
 }
+
+/*  horizontal rows */
 hr {
   color: red;
 }
+
+/* About Section */
 .about {
   display: flex;
   justify-content: center;
   height: 16rem;
 }
 
+/* Name Section */
 .name {
   position: relative;
   top: 40px;
@@ -37,12 +48,16 @@ hr {
   font-family: serif;
   height: 50px;
 }
+
+/* Course Name */
 .course {
   position: relative;
   top: 76px;
   right: 146px;
   height: 50px;
 }
+
+/* Edu section */
 .edu {
   margin: 40px;
   /* padding: 5px; */
@@ -52,6 +67,7 @@ hr {
   flex-direction: column;
 }
 
+/* Edu Details Section*/
 h5,
 p,
 .h3 {
@@ -61,11 +77,14 @@ p,
   width: 163px;
   font-family: serif;
 }
+/* Social Account Section */
 .account {
   display: flex;
   flex-direction: column;
   margin: 10px;
 }
+
+/* Link Section  */
 .link {
   text-decoration: none;
   color: white;
@@ -78,15 +97,19 @@ p,
   color: aqua;
 }
 
+/* Logo section */
 .logo {
   width: 20px;
   height: 20px;
 }
+/*  (Logo + Link) Section*/
 span {
   justify-content: center;
   align-items: center;
   margin: 10px 0;
 }
+
+/* SKill Section */
 .skill {
   display: flex;
   margin: 35px;
@@ -95,6 +118,8 @@ span {
 .skill ul li {
   margin: 0px 10px;
 }
+
+/* Footer Section */
 footer {
   margin: 10px 0px 0px 0px;
   color: black;
@@ -104,7 +129,8 @@ footer {
   *{
     margin: 0; padding: 0;
   }
-
+  
+/* About Section */
   .about {
     display: flex;
     flex-direction: column;
@@ -113,6 +139,8 @@ footer {
     margin: 50px 0px;
     height: 18rem;
   }
+  
+  /* Name Section */
   .name {
     position: relative;
     top: 0px;
@@ -120,6 +148,8 @@ footer {
     font-size: 35px;
     font-family: serif;
   }
+  
+  /* Social Account Section */
   .account {
     display: flex;
     flex-direction: row;
@@ -128,19 +158,23 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  /* FOR IMGAE  */
+  
+  /* FOR IMAGE  */
   .self {
     height: 150px;
     width: 150px;
   }
+  
+  /*  (Logo + Link) Section*/
   span {
     justify-content: center;
     align-items: center;
     margin: 8px 0px;
-    margin-left: 5px;
+    margin-left: 10px;
     position: relative;
     right: 1rem;
   }
+  
   /* for logo image  */
   .logo {
     height: 15px;
@@ -148,14 +182,21 @@ footer {
     position: relative;
     left: 5px;
   }
+  
+  /* Course Name */
   .course {
     position: relative;
     top: 0rem;
     left: 0rem;
+    font-size:0.9rem;
   }
+  
+  /* Link Section  */
   .link {
     font-size: 0.7rem;
   }
+  
+  /* Footer Section */
   footer {
     margin: 10px 0px 0px 0px;
     color: black;
