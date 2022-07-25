@@ -118,6 +118,24 @@ span {
 .skill ul li {
   margin: 0px 10px;
 }
+/* Certificate Section */
+
+.Certificate {
+  display: flex;
+  margin: 35px;
+  justify-content: center;
+}
+.Certificate ul li {
+  margin: 0px 10px;
+}
+.Certificate ul li a{
+  text-decoration: none;
+}
+.Certificate ul li a:hover{
+  text-decoration:underline;
+  text-decoration-color:red;
+}
+
 
 /* Footer Section */
 footer {
